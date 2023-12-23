@@ -99,7 +99,6 @@ export default function CreateOrderPage() {
       dropoff_date: dropoff_date.toISOString(),
       car_id: parseInt(values.car_id),
     };
-    console.log(obj);
     handlePostOrder(obj);
   }
   return (

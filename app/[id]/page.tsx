@@ -97,7 +97,7 @@ export default function DetailCar() {
               </div>
               <div>
                 <p>Monthly Rate</p>
-                <p className="text-muted-foreground">{rupiah(car?.day_rate || 0)}</p>
+                <p className="text-muted-foreground">{rupiah(car?.month_rate || 0)}</p>
               </div>
             </div>
             <div className="mt-5">
