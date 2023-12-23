@@ -52,7 +52,7 @@ export default function OrdersPage() {
             <TableHead className="text-center">Car</TableHead>
             <TableHead className="text-center">Car Name</TableHead>
             <TableHead className="text-center">Date</TableHead>
-            <TableHead className="text-center">Order Duration</TableHead>
+            <TableHead className="text-center">Rental Duration</TableHead>
             <TableHead className="text-center">Pickup Location</TableHead>
             <TableHead className="text-center">Dropoff Location</TableHead>
             <TableHead className=" text-center"></TableHead>
