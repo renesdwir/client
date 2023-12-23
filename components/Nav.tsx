@@ -13,14 +13,15 @@ export default function Nav() {
               rel="noopener noreferrer"
               className="pointer-even-none flex place-items-center gap-2 py-8 "
             >
-              <Image
+              {/* <Image
                 src="/vercel.svg"
                 alt="Vercel Logo"
                 className="dark:invert"
                 width={100}
                 height={24}
                 priority
-              />
+              /> */}
+              <span className="text-4xl font-bold">Rental Car</span>
             </a>
           </li>
           <li>

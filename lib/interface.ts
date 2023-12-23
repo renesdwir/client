@@ -6,6 +6,7 @@ export interface Order {
   pickup_location: string;
   dropoff_location: string;
   car_id: number;
+  car: Car;
 }
 
 export interface Car {
